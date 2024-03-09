@@ -45,12 +45,14 @@ const features = [
 const Features = () => {
   return (
     <div className=" flex flex-col items-center">
-      <h1 className="bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-5xl">
+      <h1
+        
+        className="bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-4xl font-bold max-md:text-2xl text-transparent md:text-5xl"
+      >
         What's inside the store?
       </h1>
-      <div className="relative flex  flex-col items-center overflow-hidden">
+      <div  className="relative flex  flex-col items-center overflow-hidden">
         <div className="absolute top-16 -z-20 h-full  border-r border-dashed border-[#d1d1d1]"></div>
-
         {features.map((feature, index) => (
           <FeatureCard
             key={index}
