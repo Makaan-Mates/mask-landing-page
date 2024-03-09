@@ -9,7 +9,7 @@ import About from "../components/custom/About";
 const Landing = () => {
   return (
     <>
-      <div className="">
+      <div id="masktop" className="">
         <Spotlight
           className="-top-40 left-0 md:-top-20 md:left-60"
           fill="white"
@@ -19,10 +19,12 @@ const Landing = () => {
           <Hero />
         </div>
         <Colleges />
-        <div className="mt-40"></div>
+        <div id="features" className="max-md:mt-20  max-md:pt-16 pt-28"></div>
         <Features />
-        <div className="mt-40"></div>
+        <div id="aboutus" className="max-md:mt-20 max-md:pt-16 pt-28"></div>
         <About />
+        <div className="max-md:mt-20 mt-20"></div>
+
         <Banner />
       </div>
     </>
