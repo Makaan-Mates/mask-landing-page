@@ -3,7 +3,7 @@ import { ProfileCard } from "./ProfileCard";
 const profiles = [
   {
     name: "Sourabh Rathour",
-    github: "https://github.com/sourabhrathour45",
+    github: "https://github.com/sourabhrathourr",
     bio: "asdds",
     avatar: "https://avatars.githubusercontent.com/u/84420690?v=4",
   },
@@ -24,7 +24,10 @@ const profiles = [
 const About = () => {
   return (
     <>
-      <div className="flex flex-row items-center justify-center gap-4">
+      <h1 className="bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-5xl">
+        Meet the Developers
+      </h1>
+      <div className=" mt-20 flex flex-row items-center justify-center gap-20">
         {profiles.map((profile, index) => (
           <div key={index} className="">
             <ProfileCard
