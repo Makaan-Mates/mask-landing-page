@@ -10,13 +10,13 @@ const profiles = [
   {
     name: "Shadev Kumar",
     github: "https://github.com/ShadevKumar",
-    twitter: "shadevkumar20",
+    twitter: "shadevkumarr",
     avatar: "https://avatars.githubusercontent.com/u/89594789?v=4",
   },
   {
     name: "Anuj Mishra",
     github: "https://github.com/Anuj236",
-    twitter: "anuj_m10s",
+    twitter: "anuj_ls",
     avatar: "https://avatars.githubusercontent.com/u/87666135?v=4",
   },
 ];
