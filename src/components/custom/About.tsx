@@ -9,7 +9,7 @@ const profiles = [
   },
   {
     name: "Shadev Kumar",
-    github: "git.new/shadev",
+    github: "https://git.new/shadev",
     twitter: "shadevkumarr",
     avatar: "https://avatars.githubusercontent.com/u/89594789?v=4",
   },
